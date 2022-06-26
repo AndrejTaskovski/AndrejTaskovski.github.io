@@ -137,4 +137,78 @@ nav div.container_1{
     height: 400px;
     width: 80%;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: darkgray;
+}
+.hoby_items h2{
+    font-size: 50px;
+    margin: 0;
+    font-family: Arial;
+    margin-bottom: 40px;
+}
+.hoby_items p{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto 0 auto;
+    font-size: 20px;
+    font-family: Arial;
+}
+.education_box{
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.education_item{
+    border-radius: 18px;
+    height: 300px;
+    width: 50%;
+    background: darkslateblue;
+    color: darkgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+}
+.school{
+    font-size: 30px;
+    font-style: italic;
+}
+.college_box{
+    height: 300px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: darkslateblue;
+    border-radius: 18px;
+    margin-bottom: 20px;
+}
+.college_item{
+    color: darkgray;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+}
+#university{
+    font-size: 30px;
+    font-style: italic;
+}
+#college{
+    font-size: 30px;
+    font-style: italic;
 }
