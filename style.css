@@ -57,7 +57,7 @@ nav div.container_1{
     justify-content: center;
 }
 .first{
-    color: white;
+    color: lightgray;
     font-family: Arial;
     letter-spacing: 1px;
     font-size: 4.5em;
@@ -65,9 +65,76 @@ nav div.container_1{
     font-style: oblique;
 }
 .second{
-    color: white;
+    color: lightgray;
     font-size: 1.5em;
     font-family: Arial;
     font-weight: bold;
     font-style: oblique;
+}
+.box{
+    border-radius: 20px;
+    display: flex;
+    height: 100px;
+    width: 80%;
+    margin: auto;
+    margin-top: -10px;
+    background: black;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.box-item{
+    height: 80px;
+    width: 25%;
+}
+.box-item:hover{
+    background: darkslateblue;
+    border-radius: 15px;
+}
+.box-item div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text_about_me{
+    height: 200px;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    background: darkslateblue;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text_about_me div{
+    width: 80%;
+    color: darkgray;
+    font-size: 25px;
+    font-family: Arial;
+}
+.images{
+    display: flex;
+    gap: 300px;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+.hoby_box{
+    display: flex;
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.hoby_items{
+    background: darkslateblue;
+    border-radius: 18px;
+    height: 400px;
+    width: 80%;
+    margin: auto;
 }
