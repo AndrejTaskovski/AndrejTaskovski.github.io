@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    background: linear-gradient(to right, darkslategrey, lightsteelblue);
+}
+nav{
+    background: black;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+.link{
+    display: inline-block;
+    float: left;
+    padding: 0 20px 0 20px;
+    font-size: 22px;
+    position: relative;
+    height: 50px;
+}
+p{
+    margin: 12.5px 0 12.5px 0;
+}
+a{
+    position: relative;
+    color: darkgray;
+    text-decoration-line: none;
+    font-family: Arial;
+    font-weight: bold;
+}
+nav div.container_1{
+    position: absolute;
+}
+.link:hover{
+    background: darkgray;
+    color: black;
+}
+.container_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 20px;
+}
+.slika{
+    margin-left: -25px;
+}
+#slika{
+    border-radius: 20%;
+}
+.text{
+    background: darkslategrey;
+    border-radius: 50%;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.first{
+    color: white;
+    font-family: Arial;
+    letter-spacing: 1px;
+    font-size: 4.5em;
+    font-weight: bold;
+    font-style: oblique;
+}
+.second{
+    color: white;
+    font-size: 1.5em;
+    font-family: Arial;
+    font-weight: bold;
+    font-style: oblique;
+}
